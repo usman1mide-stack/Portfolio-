@@ -1,0 +1,332 @@
+/*ABOUT PAGE*/
+.about {
+    color: white;
+}
+.navbar {
+    background-color: silver;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover {
+    color: white;
+}
+h1 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("about.jpg");
+    height: 300px; 
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10px; 
+}
+h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+p {
+    padding: 20px;
+    max-width: 850px;
+    margin: auto;
+    line-height: 7.8;
+}
+.sectio {
+    background: silver;
+    color: black;
+}
+.setion {
+    color: black;
+    background: silver;
+    padding: 20px;
+    line-height: 1.0;
+    font-weight:600;
+}
+/*ABOUT PAGE*/
+
+
+
+/*SKILL PAGE*/
+.skills{
+    width:80%;
+    margin: 30px;
+    padding:60px 0;
+}
+
+.skills h2{
+    text-align:left;
+    padding: 5px;
+    color:gold;
+    margin-bottom:40px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill{
+    margin-bottom:25px;
+}
+
+.skill span{
+    color:white;
+    font-size:20px;
+}
+
+.bar{
+    width:100%;
+    height:12px;
+    background:#444;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.bar div{
+    height:100%;
+    border-radius:10px;
+    background:gold;
+}
+
+.html{
+    width:95%;
+}
+
+.css{
+    width:90%;
+}
+
+.bootstrap{
+    width:85%;
+}
+
+.javascript{
+    width:75%;
+}
+.skin {
+    color: white;
+    font-size: 35px;
+    
+}
+.th-skill{
+    background: white;
+    color: black;
+    line-height: 1.6;
+    display: grid;
+}
+
+/*SKILL PAGE*/
+
+/*project PAGE*/
+.project-page {
+    background: white;
+    color: black;
+    min-height: 100vh;
+}
+.project-img {
+    width: 70%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+}
+.projec-img {
+    width: 70%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border: solid black 2px;
+}
+.proje-img {
+    width: 70%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: solid back 2px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border: solid black 2px;
+    
+}
+.proj-img {
+    width: 70%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+/*project PAGE*/
+
+
+/*CONTACT PAGE*/
+
+.contact {
+    background: white;
+    color: black;
+    min-height: 100vh;
+}
+.contact-box{
+    width:80%;
+    margin:auto;
+    padding:40px;
+    background:silver;
+    border-radius:30px;
+}
+
+.take{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.take p{
+    text-align:center;
+    max-width:600px;
+    line-height:1.7;
+}
+
+.take ul{
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+.take input,
+.take textarea{
+    width:100%;
+    max-width:500px;
+    padding:12px;
+}
+
+.take button{
+    padding:12px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact PAGE*/
+
+/*HOME PAGE*/
+body {
+    background: black;
+    color: white;
+}
+.font {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("let.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 30px;
+    color: white;
+    text-align: left;
+}
+span {
+    color: white;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+p {
+    line-height: 1.6; 
+}
+h4 {
+    padding: 15px;
+    font-weight: 600;
+}
+h3 {
+    color: gold;
+    text-transform: uppercase;
+    gap: 10px;
+    display: flex;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+ul {
+    list-style: none;   /* Removes the bullets */
+    padding-left: 0;
+    margin: ;
+    margin-top: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+ }
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block; 
+    padding: 10px 0px;
+    transition: all 0.2s ease;
+}
+
+a:hover{
+    background-color: rgba(255, 215, 0, 0.2);
+    color: gold;
+}
+
+a:active{
+    background-color: gold;
+    color: black;
+    transform: scale(0.95);
+
+}
+.look {
+    color: gold;
+    font-size: 20px;
+}
+.section {
+    color: white;
+    background: #B8860B;
+    padding: 20px;
+    line-height: 1.0;
+}
+/*HOME PAGE*/
